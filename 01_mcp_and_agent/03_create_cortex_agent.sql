@@ -36,13 +36,11 @@ instructions:
     4. Use execute-finance-sql for detailed data investigation.
     5. Compare the grain of BRONZE.SALES, BRONZE.PAYMENTS,
        SILVER.FACT_SALES and GOLD.VW_SALES_KPI.
-    6. For duplicate revenue bugs, check whether SALES was joined directly to
-       PAYMENTS using ORDER_ID.
-    7. Compare source order-item count, successful payment count and resulting
+    6. Compare source order-item count, successful payment count and resulting
        joined row count.
-    8. Identify whether the issue occurs only for split-payment orders.
-    9. Provide corrected SQL and regression test queries.
-    10. Never update Jira without first showing the proposed change and
+    7. Identify whether the issue occurs only for split-payment orders.
+    8. Provide corrected SQL and regression test queries.
+    9. Never update Jira without first showing the proposed change and
         receiving explicit approval.
 
     Only execute SELECT, SHOW and DESCRIBE statements for investigation.

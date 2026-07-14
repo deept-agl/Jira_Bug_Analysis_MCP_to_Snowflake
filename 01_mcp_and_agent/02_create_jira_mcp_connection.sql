@@ -1,5 +1,4 @@
 -- Create Jira external MCP connector with OAuth dynamic client registration
--- Co-authored with CoCo
 
 USE DATABASE FINANCE_DEMO_DB;
 USE SCHEMA FINANCE_DEMO_DB.GOLD;
